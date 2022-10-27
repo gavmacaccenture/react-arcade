@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-arcade/static/css/main.76b706f8.css",
+    "main.js": "/react-arcade/static/js/main.a688844c.js",
+    "static/js/787.3f259038.chunk.js": "/react-arcade/static/js/787.3f259038.chunk.js",
+    "index.html": "/react-arcade/index.html",
+    "main.76b706f8.css.map": "/react-arcade/static/css/main.76b706f8.css.map",
+    "main.a688844c.js.map": "/react-arcade/static/js/main.a688844c.js.map",
+    "787.3f259038.chunk.js.map": "/react-arcade/static/js/787.3f259038.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76b706f8.css",
+    "static/js/main.a688844c.js"
+  ]
+}

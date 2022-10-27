@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "@mui/material/Button";
 
 const Cards = ({
   cardsLeft,
@@ -16,9 +17,17 @@ const Cards = ({
       </p>
       {snapFound && <p>SNAP - you won!</p>}
       {!cardsLeft && !snapFound && <p>Unlucky - you lose!</p>}
-      <button onClick={drawTwoCards}>
+      <Button
+        variant="outlined"
+        sx={{
+          color: "white",
+          backgroundColor: "red",
+          borderColor: "black",
+        }}
+        onClick={drawTwoCards}
+      >
         {snapFound ? "Play again" : "Draw two cards"}
-      </button>
+      </Button>
       <div>
         {card1 && (
           <img alt="card 1" src={card1.image} height={100} width={100} />
